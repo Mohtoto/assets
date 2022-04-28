@@ -260,6 +260,7 @@ FEATURES
 .books{
 
   display: flex;
+  flex-wrap: wrap;
 
 }
 .book{
@@ -301,4 +302,13 @@ FEATURES
 margin-bottom: 8px;
 color: #fabf2a;
 }
+
+.book__price--normal{
+
+  text-decoration: line-through;
+  padding-right: 6px;
+  color: #bfbfbf;
+
+}
+
 
